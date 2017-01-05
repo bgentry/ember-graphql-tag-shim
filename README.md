@@ -20,7 +20,7 @@ const MyQuery = gql`
       name
     }
   }
-`
+`;
 ```
 
 ## Developing

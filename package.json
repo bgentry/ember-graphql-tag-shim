@@ -1,6 +1,6 @@
 {
   "name": "ember-graphql-tag-shim",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An ember-cli shim for graphql-tag.",
   "keywords": [
     "ember-addon"
