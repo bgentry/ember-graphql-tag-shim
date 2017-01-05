@@ -4,23 +4,34 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-graphql-tag-shim`
-* `npm install`
-* `bower install`
+```
+ember install ember-graphql-tag-shim
+```
 
-## Running
+## Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+```js
+import gql from 'graphql-tag';
 
-## Running Tests
+const MyQuery = gql`
+  query MyQuery {
+    MyQuery() {
+      id
+      name
+    }
+  }
+`
+```
+
+## Developing
+
+### Running Tests
 
 * `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
-## Building
+### Building
 
 * `ember build`
 
